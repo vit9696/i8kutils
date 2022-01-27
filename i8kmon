@@ -119,7 +119,7 @@ proc read_i8k_status {} {
     global config
     global status
 
-    set status(temp) [eval exec "i8kctl temp"]
+    set status(temp) [eval exec "i8ktemp"]
 
     set speed [eval exec "i8kctl speed"]
     set lspeed [lindex $speed 0]

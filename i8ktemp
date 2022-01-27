@@ -1,0 +1,2 @@
+#!/bin/sh
+sensors coretemp-isa-0000 -u | grep temp1_input | sed  's/temp1_input://' | xargs printf '%.0f\n'

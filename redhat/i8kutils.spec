@@ -25,7 +25,7 @@ mkdir -p $RPM_BUILD_ROOT/%{_bindir}
 mkdir -p $RPM_BUILD_ROOT/%{_unitdir}
 mkdir -p $RPM_BUILD_ROOT/%{_mandir}/man1
 mkdir -p $RPM_BUILD_ROOT/etc/modprobe.d
-cp i8kmon i8kfan i8kctl $RPM_BUILD_ROOT/%{_bindir}/
+cp i8kmon i8kfan i8kctl i8ktemp $RPM_BUILD_ROOT/%{_bindir}/
 cp i8kmon.conf $RPM_BUILD_ROOT/etc/
 cp dell-smm-hwmon.conf $RPM_BUILD_ROOT/etc/modprobe.d/
 cp redhat/i8kmon.service $RPM_BUILD_ROOT/%{_unitdir}/
