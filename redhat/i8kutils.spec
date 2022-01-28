@@ -1,6 +1,6 @@
 Summary: Fan control for Dell laptops
 Name: {{{ git_name }}}
-Version: {{{ git_version lead=1.43 follow=01 }}}
+Version: {{{ git_version lead=1.44 follow=01 }}}
 Release: 1%{?dist}
 License: GPLv2+
 Group: Applications/System/Configuration/Hardware
@@ -45,7 +45,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_unitdir}/i8kmon.service
 
 %changelog
-* Sun Jun 3 2018 uriesk <uriesk@posteo.de> 1.43
+* Sun Jun 3 2018 uriesk <uriesk@posteo.de> 1.44
 - spec file rewritten to build against current version
 * Sun Nov 17 2002 Roger <roger@linuxfreemail.com> 1.17-1mdk
 - Packaged
